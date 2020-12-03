@@ -1,0 +1,8 @@
+  form h2,
+  form p {
+    margin: .1vw .2vw;
+  }
+
+  form input {
+    display: block;
+  }

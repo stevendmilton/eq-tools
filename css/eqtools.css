@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, Sans-serif;
+}
+
+header {
+    display: block;
+    background-color: #545F66;
+    padding: 20px;
+    border-bottom: 5px solid #D0F4EA;
+}
+
+h1 {
+    font-weight: normal;
+    padding: 1.5em;
+    color: whitesmoke;
+    text-shadow: 1px 1px 0px #444;
+    width: 1000px;
+    margin: auto;
+}
+
+#title {
+    margin: auto;
+    width: auto;
+    text-align: center;
+    display: block;
+}
+
+nav {
+    background: #f7f7f7;
+}
+
+#nav {
+    list-style: none inside;
+    padding: 0;
+    text-align: center;
+    width: auto;
+    margin: auto;
+}
+
+#nav li {
+    display: block;
+    position: relative;
+    float: left;
+    background: #829399;
+    border-right: 2px solid #545F66;
+    /* menu background color */
+}
+
+#nav li a {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    width: 180px;
+    /* this is the width of the menu items */
+    line-height: 35px;
+    /* this is the hieght of the menu items */
+    color: #ffffff;
+    /* list item font color */
+}
+
+#nav li li a {
+    font-size: 80%;
+}
+
+.subsub {
+    padding: 0;
+    text-decoration: none;
+    width: 100px;
+    line-height: 35px;
+    border-left: 2px solid black;
+}
+
+/* smaller font size for sub menu items */
+
+#nav li:hover {
+    background: #545F66;
+}
+
+/* highlights current hovered list item and the parent list items when hovering over sub menues */
+
+#nav ul {
+    position: absolute;
+    padding: 0;
+    left: 0;
+    display: none;
+    /* hides sublists */
+}
+
+#nav li:hover ul ul {
+    display: none;
+}
+
+/* hides sub-sublists */
+
+#nav li:hover ul {
+    display: block;
+}
+
+/* shows sublist on hover */
+
+#nav li li:hover ul {
+    display: block;
+    /* shows sub-sublist on hover */
+    margin-left: 180px;
+    /* this should be the same width as the parent list item */
+    margin-top: -35px;
+    border-left: 2px solid black;
+    /* aligns top of sub menu with top of list item */
+}
+
+main {
+    overflow: wrap;
+    min-height: 30vh;
+    background-color: #f7f7f7;
+    width: 700px;
+    margin: auto;
+    box-shadow: -700px 0 0 #f7f7f7, 700px 0 0 #f7f7f7;
+    padding-top: 20px;
+}
+
+footer {
+    padding: 1em;
+    background-color: #D0F4EA;
+    font-size: 0.8em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+body {
+    font-size: 1em;
+    font-family: arial, helvetica, sans-serif
+}
+
+label,
+select,
+textarea {
+    float: left;
+    width: 15em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+input {
+    float: left;
+    /*width: 5em;*/
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+label {
+    clear: left;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+}
+
+input[type="submit"] {
+    margin-left: 1em;
+    width: auto;
+    padding: 0.5em 1em;
+    clear: both;
+}
+
+form {
+    display: block;
+    width: auto;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+fieldset {
+    padding: 1em;
+}
+
+blockquote {
+    margin: auto;
+    display: table;
+    border: 1px solid #ccc;
+    padding-top: 0.5em;
+}
+
+blockquote p {
+    display: table-cell;
+    width: 90%;
+    vertical-align: top;
+}
+
+blockquote form {
+    display: table-cell;
+    width: 10px;
+}
+
+table {
+    align-content: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    border-bottom: 1px solid #ccc;
+}
+
+td,
+th {
+    padding: 5px;
+    text-align: left;
+}

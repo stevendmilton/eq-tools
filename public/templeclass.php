@@ -1,0 +1,24 @@
+<?php
+try {
+    include_once __DIR__ . '/../includes/DatabaseFunctions.php';
+    
+    $members = allClassMembers($pdo,$_GET['class']);
+    
+    $title = 'Temple Prep Class Members';
+    
+    $totalMembers = countClassMembers($pdo,$_GET['class']);
+    
+    ob_start();
+    
+    include  __DIR__ . '/../templates/templeclass.html.php';
+    
+    $output = ob_get_clean();
+}
+catch (PDOException $e) {
+    $title = 'An error has occurred';
+    
+    $output = 'Database error: ' . $e->getMessage() . ' in '
+    . $e->getFile() . ':' . $e->getLine();
+}
+include  __DIR__ . '/../templates/layout.html.php';
+?>
