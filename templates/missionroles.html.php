@@ -1,6 +1,6 @@
 <p>
     <?=$totalRoles?> Ward Mission Role(s) have been entered.
-    <a href="addmissionrole.php">Add Role</a>
+    <a href="/public/addmissionrole.php">Add Role</a>
 </p>
 <table>
     <tr>
@@ -20,13 +20,13 @@
             <?=$role['date_called'];?>
         </td>
         <td>
-            <form action="editmissionrole.php" method="get">
+            <form action="e/public/ditmissionrole.php" method="get">
                 <input type="hidden" name="id" value="<?=$role['id']?>">
                 <input type="submit" value="Edit">
             </form>
         </td>
         <td>
-            <form action="deletemissionrole.php" method="post">
+            <form action="/public/deletemissionrole.php" method="post">
                 <input type="hidden" name="id" value="<?=$role['id']?>">
                 <input type="submit" value="Delete">
             </form>

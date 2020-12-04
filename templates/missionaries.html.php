@@ -1,6 +1,6 @@
 <p>
     <?=$totalMissionaries?> missionary(s) have been entered.
-    <a href="addmissionary.php">Add Missionary</a>
+    <a href="/public/addmissionary.php">Add Missionary</a>
 </p>
 <table>
     <tr>
@@ -24,13 +24,13 @@
             <?=$missionary['date_added'];?>
         </td>
         <td>
-            <form action="editmissionary.php" method="get">
+            <form action="/public/editmissionary.php" method="get">
                 <input type="hidden" name="id" value="<?=$missionary['id']?>">
                 <input type="submit" value="Edit">
             </form>
         </td>
         <td>
-            <form action="deletemissionary.php" method="post">
+            <form action="/public/deletemissionary.php" method="post">
                 <input type="hidden" name="id" value="<?=$missionary['id']?>">
                 <input type="submit" value="Delete">
             </form>

@@ -1,6 +1,6 @@
 <p>
     <?=$totalCommitteeMembers?> members(s) have been entered.
-    <a href="addcommitteemember.php?committee=<?=$_GET['committee']?>">Add Committee Member</a>
+    <a href="/public/addcommitteemember.php?committee=<?=$_GET['committee']?>">Add Committee Member</a>
 </p>
 <table>
     <tr>
@@ -27,14 +27,14 @@
                 ENT_QUOTES, 'UTF-8'); ?>
         </td>
         <td>
-            <form action="editcommitteemember.php" method="get">
+            <form action="/public/editcommitteemember.php" method="get">
                 <input type="hidden" name="id" value="<?=$elder['id']?>">
                 <input type="submit" value="Edit">
                 <input type="hidden" name="name" value=<?=$_GET['committee']?>>
             </form>
         </td>
         <td>
-            <form action="deletecommitteemember.php" method="get">
+            <form action="/public/deletecommitteemember.php" method="get">
                 <input type="hidden" name="name" value=<?=$_GET['committee']?>>
                 <input type="hidden" name="id" value="<?=$elder['id']?>">
                 <input type="submit" value="Delete">

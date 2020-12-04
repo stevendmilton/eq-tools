@@ -1,6 +1,6 @@
 <p>
     <?=$totalMembers?> trip member(s) have been entered.
-    <a href="addtripmember.php?trip=<?=$_GET['trip']?>">Add Trip Member</a>
+    <a href="/public/addtripmember.php?trip=<?=$_GET['trip']?>">Add Trip Member</a>
 </p>
 
 <table>
@@ -17,7 +17,7 @@
         <td><?=$member['last_name']?></td>
         <td><?=$member['date_added'];?></td>
         <td>
-            <form action="deletetripmember.php" method="get">
+            <form action="/public/deletetripmember.php" method="get">
                 <input type="hidden" name="id" id="id" value="<?=$member['id']?>">
                 <input type="hidden" name="trip" id="trip" value="<?=$_GET['trip'];?>">
                 <input type="submit" value="Delete">

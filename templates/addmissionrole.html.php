@@ -2,12 +2,12 @@
 
 <head>
     <title>Add Ward Mission Role</title>
-    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="stylesheet" href="/css/form.css" />
     <meta charset="utf-8">
 </head>
 
 <body>
-    <form action="addmissionrole.php" method="get">
+    <form action="/public/addmissionrole.php" method="get">
         <fieldset>
             <legend>Ward Mission Role</legend>
             <label for="role">Ward Mission Role:</label>

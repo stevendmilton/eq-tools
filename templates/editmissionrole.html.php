@@ -2,12 +2,12 @@
 
 <head>
     <title>Edit Mission Role</title>
-    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="stylesheet" href="/css/form.css" />
     <meta charset="utf-8">
 </head>
 
 <body>
-    <form action="updatemissionrole.php" method="get">
+    <form action="/public/updatemissionrole.php" method="get">
         <fieldset>
             <legend>Edit Role</legend>
             <label for="role">Mission Role:</label>

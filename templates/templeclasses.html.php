@@ -1,6 +1,6 @@
 <p>
     <?=$totalClasses?> temple prep class(es) have been entered.
-    <a href="addclass.php">Add Class</a>
+    <a href="/public/addclass.php">Add Class</a>
 </p>
 
 <table>
@@ -23,13 +23,13 @@
             <?=$class['date_updated'];?>
         </td>
         <td>
-            <form action="editclass.php" method="get">
+            <form action="/public/editclass.php" method="get">
                 <input type="hidden" name="id" value="<?=$class['id']?>">
                 <input type="submit" value="Edit">
             </form>
         </td>
         <td>
-            <form action="deleteclass.php" method="post">
+            <form action="/public/deleteclass.php" method="post">
                 <input type="hidden" name="id" value="<?=$class['id']?>">
                 <input type="submit" value="Delete">
             </form>

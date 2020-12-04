@@ -2,12 +2,12 @@
 
 <head>
     <title>Edit Missionary</title>
-    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="stylesheet" href="/css/form.css" />
     <meta charset="utf-8">
 </head>
 
 <body>
-    <form action="updatemissionary.php" method="get">
+    <form action="/public/updatemissionary.php" method="get">
         <fieldset class="fullset">
             <legend>Edit Missionary</legend>
             <label for="firstname">First Name:</label>

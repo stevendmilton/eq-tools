@@ -1,6 +1,6 @@
 <p>
     <?=$totalConsultants?> consultant(s) have been entered.
-    <a href="addconsultant.php">Add Temple/Family History Consultant</a>
+    <a href="/public/addconsultant.php">Add Temple/Family History Consultant</a>
 </p>
 <table>
     <tr>
@@ -20,7 +20,7 @@
             <?=$consultant['date_added'];?>
         </td>
         <td>
-            <form action="deleteconsultant.php" method="post">
+            <form action="/public/deleteconsultant.php" method="post">
                 <input type="hidden" name="id" value="<?=$consultant['id']?>">
                 <input type="submit" value="Delete">
             </form>

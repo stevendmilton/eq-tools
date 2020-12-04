@@ -16,7 +16,7 @@
             <?=$member['date_added'];?>
         </td>
         <td>
-            <form action="deletebommember.php" method="post">
+            <form action="/public/deletebommember.php" method="post">
                 <input type="hidden" name="id" value="<?=$member['id']?>">
                 <input type="submit" value="Delete">
             </form>

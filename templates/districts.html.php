@@ -1,6 +1,6 @@
 <p>
     <?=$totalDistricts?> district(s) have been entered.
-    <a href="adddistrict.php">Add District</a>
+    <a href="/public/adddistrict.php">Add District</a>
 </p>
 
 <table>
@@ -33,14 +33,14 @@
                 ENT_QUOTES, 'UTF-8'); ?>
         </td>
         <td>
-            <form action="editdistrict.php" method="get">
+            <form action="/public/editdistrict.php" method="get">
                 <input type="hidden" name="leader" value="<?=$district['leader']?>">
                 <input type="hidden" name="district" value="<?=$district['id']?>">
                 <input type="submit" value="Edit">
             </form>
         </td>
         <td>
-            <form action="deletedistrict.php" method="get">
+            <form action="/public/deletedistrict.php" method="get">
                 <input type="hidden" name="id" value="<?=$district['id']?>">
                 <input type="submit" value="Delete">
             </form>

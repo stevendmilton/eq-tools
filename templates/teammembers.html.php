@@ -1,6 +1,6 @@
 <p>
     <?=$totalTeamMembers?> members(s) have been entered.
-    <a href="addteammember.php?team=<?=$_GET['team']?>">Add Team Member</a>
+    <a href="/public/addteammember.php?team=<?=$_GET['team']?>">Add Team Member</a>
 </p>
 <table>
     <tr>
@@ -27,14 +27,14 @@
                 ENT_QUOTES, 'UTF-8'); ?>
         </td>
         <td>
-            <form action="editteammember.php" method="get">
+            <form action="/public/editteammember.php" method="get">
                 <input type="hidden" name="id" value="<?=$elder['id']?>">
                 <input type="submit" value="Edit">
                 <input type="hidden" name="name" value=<?=$_GET['team']?>>
             </form>
         </td>
         <td>
-            <form action="deleteteammember.php" method="get">
+            <form action="/public/deleteteammember.php" method="get">
                 <input type="hidden" name="name" value=<?=$_GET['team']?>>
                 <input type="hidden" name="id" value="<?=$elder['id']?>">
                 <input type="submit" value="Delete">

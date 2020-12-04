@@ -2,12 +2,12 @@
 
 <head>
     <title>Edit Household</title>
-    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="stylesheet" href="/css/form.css" />
     <meta charset="utf-8">
 </head>
 
 <body>
-    <form action="updatehousehold.php" method="get">
+    <form action="/public/updatehousehold.php" method="get">
         <fieldset class="fullset">
             <legend>Edit Household</legend>
             <label for="surname">Surname:</label>

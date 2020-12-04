@@ -1,6 +1,6 @@
 <p>
     <?=$totalStudents?> class member(s) have been entered.
-    <a href="addmissionprep.php">Add Missionary Prep Student</a>
+    <a href="/public/addmissionprep.php">Add Missionary Prep Student</a>
 </p>
 <table>
     <tr>
@@ -20,7 +20,7 @@
             <?=$student['date_added'];?>
         </td>
         <td>
-            <form action="deletemissionprep.php" method="post">
+            <form action="/public/deletemissionprep.php" method="post">
                 <input type="hidden" name="id" value="<?=$student['id']?>">
                 <input type="submit" value="Delete">
             </form>

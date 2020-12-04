@@ -2,12 +2,12 @@
 
 <head>
     <title>Enter Household Information</title>
-    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="stylesheet" href="/css/form.css" />
     <meta charset="utf-8">
 </head>
 
 <body>
-    <form action="addhousehold.php" method="get">
+    <form action="/public/addhousehold.php" method="get">
         <fieldset id="householdfield">
             <legend>New Household</legend>
             <label for="surname">Surname:</label>

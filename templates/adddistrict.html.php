@@ -2,12 +2,12 @@
 
 <head>
     <title>Enter District Info</title>
-    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="stylesheet" href="/css/form.css" />
     <meta charset="utf-8">
 </head>
 
 <body>
-    <form action="adddistrict.php" method="get">
+    <form action="/public/adddistrict.php" method="get">
         <fieldset>
             <legend>New District</legend>
             <label for="dname">District name:</label>

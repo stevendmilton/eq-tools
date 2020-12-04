@@ -2,12 +2,12 @@
 
 <head>
     <title>Edit Committee Member</title>
-    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="stylesheet" href="/css/form.css" />
     <meta charset="utf-8">
 </head>
 
 <body>
-    <form action="updatecommitteemember.php" method="get">
+    <form action="/public/updatecommitteemember.php" method="get">
         <fieldset class="fullset">
             <legend>Edit Committee Member</legend>
             <label style="padding-bottom:1em;"><?=$cmember['first_name'] . ' ' . $cmember['last_name']?></label>

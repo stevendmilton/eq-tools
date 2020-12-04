@@ -2,12 +2,12 @@
 
 <head>
     <title>Edit Temple Trip</title>
-    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="stylesheet" href="/css/form.css" />
     <meta charset="utf-8">
 </head>
 
 <body>
-    <form action="updatetrip.php" method="get">
+    <form action="/public/updatetrip.php" method="get">
         <fieldset>
             <legend>Edit Temple Trip</legend>
             <label for="trip_date">Trip&nbsp;Date:</label>

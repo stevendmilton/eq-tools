@@ -1,6 +1,6 @@
 <p>
     <?=$totalTeams?> team(s) have been entered.
-    <a href="addteam.php">Add Team</a>
+    <a href="/public/addteam.php">Add Team</a>
 </p>
 
 <table>
@@ -19,7 +19,7 @@
                 ENT_QUOTES, 'UTF-8')?>
         </td>
         <td>
-            <form action="deleteteam.php" method="post">
+            <form action="/public/deleteteam.php" method="post">
                 <input type="hidden" name="id" value="<?=$team['id']?>">
                 <input type="submit" value="Delete">
             </form>

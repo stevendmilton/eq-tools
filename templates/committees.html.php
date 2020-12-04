@@ -1,6 +1,6 @@
 <p>
     <?=$totalCommittees?> committee(s) have been entered.
-    <a href="addcommittee.php">Add Committee</a>
+    <a href="/public/addcommittee.php">Add Committee</a>
 </p>
 
 <table>
@@ -20,7 +20,7 @@
                 ENT_QUOTES, 'UTF-8')?>
         </td>
         <td>
-            <form action="deletecommittee.php" method="post">
+            <form action="/public/deletecommittee.php" method="post">
                 <input type="hidden" name="id" value="<?=$committee['id']?>">
                 <input type="submit" value="Delete">
             </form>

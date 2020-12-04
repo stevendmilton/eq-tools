@@ -2,12 +2,12 @@
 
 <head>
     <title>Edit Companionship</title>
-    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="stylesheet" href="/css/form.css" />
     <meta charset="utf-8">
 </head>
 
 <body>
-    <form action="updatecompanionship.php" method="get">
+    <form action="/public/updatecompanionship.php" method="get">
         <fieldset>
             <legend>Edit Companionship</legend>
             <?php districtDropdown($_GET['districtid']); ?>

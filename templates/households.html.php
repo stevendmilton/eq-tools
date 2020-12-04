@@ -1,6 +1,6 @@
 <p>
     <?=$totalHouseholds?> household(s) have been entered.
-    <a href="addhousehold.php">Add Household</a>
+    <a href="/public/addhousehold.php">Add Household</a>
 </p>
 <table>
     <tr>
@@ -38,13 +38,13 @@
             } else {echo 'No Ministering Brothers';}?>
         </td>
         <td>
-            <form action="edithousehold.php" method="get">
+            <form action="/public/edithousehold.php" method="get">
                 <input type="hidden" name="id" value="<?=$household['id']?>">
                 <input type="submit" value="Edit">
             </form>
         </td>
         <td>
-            <form action="deletehousehold.php" method="post">
+            <form action="/public/deletehousehold.php" method="post">
                 <input type="hidden" name="id" value="<?=$household['id']?>">
                 <input type="submit" value="Delete">
             </form>

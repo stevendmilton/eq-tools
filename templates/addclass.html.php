@@ -2,12 +2,12 @@
 
 <head>
     <title>Enter Class Information</title>
-    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="stylesheet" href="/css/form.css" />
     <meta charset="utf-8">
 </head>
 
 <body>
-    <form action="addclass.php" method="get">
+    <form action="/public/addclass.php" method="get">
         <fieldset>
             <legend>Temple Preparation Class</legend>
             <label for="class_date">Class Date:</label>

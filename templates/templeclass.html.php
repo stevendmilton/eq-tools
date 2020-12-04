@@ -1,6 +1,6 @@
 <p>
     <?=$totalMembers?> class member(s) have been entered.
-    <a href="addclassmember.php?class=<?=$_GET['class']?>">Add Class Member</a>
+    <a href="/public/addclassmember.php?class=<?=$_GET['class']?>">Add Class Member</a>
 </p>
 
 <table>
@@ -17,7 +17,7 @@
         <td><?=$member['last_name']?></td>
         <td><?=$member['date_added'];?></td>
         <td>
-            <form action="deleteclassmember.php" method="get">
+            <form action="/public/deleteclassmember.php" method="get">
                 <input type="hidden" name="id" id="id" value="<?=$member['id']?>">
                 <input type="hidden" name="class" id="class" value="<?=$_GET['class'];?>">
                 <input type="submit" value="Delete">

@@ -1,6 +1,6 @@
 <p>
     <?=$totalElders?> elder(s) have been entered.
-    <a href="addelder.php">Add Quorum Brother</a>
+    <a href="/public/addelder.php">Add Quorum Brother</a>
 </p>
 <table>
     <tr>
@@ -25,7 +25,7 @@
         <td>
             <!--<a href="editname.php?id=<?=$elder['id']?>">
                     Edit</a>-->
-            <form action="deleteelder.php" method="post">
+            <form action="/public/deleteelder.php" method="post">
                 <input type="hidden" name="id" value="<?=$elder['id']?>">
                 <input type="submit" value="Delete">
             </form>

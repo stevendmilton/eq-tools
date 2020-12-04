@@ -2,12 +2,12 @@
 
 <head>
     <title>Enter Companionship Info</title>
-    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="stylesheet" href="/css/form.css" />
     <meta charset="utf-8">
 </head>
 
 <body>
-    <form action="addcompanionship.php" method="get">
+    <form action="/public/addcompanionship.php" method="get">
         <fieldset>
             <legend>New Companionship</legend>
             <?php districtDropdown(0) ?>

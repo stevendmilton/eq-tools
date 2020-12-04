@@ -2,12 +2,12 @@
 
 <head>
     <title>Edit Team Member</title>
-    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="stylesheet" href="/css/form.css" />
     <meta charset="utf-8">
 </head>
 
 <body>
-    <form action="updateteammember.php" method="get">
+    <form action="/public/updateteammember.php" method="get">
         <fieldset class="fullset">
             <legend>Edit Team Member</legend>
             <label style="padding-bottom:1em;"><?=$tmember['first_name'] . ' ' . $tmember['last_name']?></label>

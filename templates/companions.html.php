@@ -1,6 +1,6 @@
 <p>
     <?=$totalCompanions?> companionships(s) have been entered.
-    <a href="addcompanionship.php">Add Companionship</a>
+    <a href="/public/addcompanionship.php">Add Companionship</a>
 </p>
 
 <table>
@@ -43,7 +43,7 @@
             <?=$companion['last_interview'];?>
         </td>
         <td>
-            <form action="editcompanionship.php" method="get">
+            <form action="/public/editcompanionship.php" method="get">
                 <input type="hidden" name="id" value="<?=$companion['id']?>">
                 <input type="hidden" name="districtid" value="<?=$companion['districtid']?>">
                 <input type="hidden" name="companion1" value="<?=$companion['companion1']?>">
@@ -52,7 +52,7 @@
             </form>
         </td>
         <td>
-            <form action="deletecompanionship.php" method="post">
+            <form action="/public/deletecompanionship.php" method="post">
                 <input type="hidden" name="id" value="<?=$companion['id']?>">
                 <input type="submit" value="Delete">
             </form>

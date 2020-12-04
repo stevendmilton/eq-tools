@@ -2,12 +2,12 @@
 
 <head>
     <title>Edit District</title>
-    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="stylesheet" href="/css/form.css" />
     <meta charset="utf-8">
 </head>
 
 <body>
-    <form action="updatedistrict.php" method="get">
+    <form action="/public/updatedistrict.php" method="get">
         <fieldset>
             <legend>Edit District</legend>
             <label for="districtname">District Name:</label>

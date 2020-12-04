@@ -2,12 +2,12 @@
 
 <head>
     <title>Add Team Member</title>
-    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="stylesheet" href="/css/form.css" />
     <meta charset="utf-8">
 </head>
 
 <body>
-    <form action="addteammember.php" method="get">
+    <form action="/public/addteammember.php" method="get">
         <fieldset>
             <legend>New Team Member</legend>
             <label for="teamname">Team name:</label>

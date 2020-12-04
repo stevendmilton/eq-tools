@@ -2,12 +2,12 @@
 
 <head>
     <title>Enter Missionary Prep Students</title>
-    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="stylesheet" href="/css/form.css" />
     <meta charset="utf-8">
 </head>
 
 <body>
-    <form action="addmissionprep.php" method="get">
+    <form action="/public/addmissionprep.php" method="get">
         <fieldset>
             <legend>New Mission Prep Student</legend>
             <label for="firstname">First name:</label>

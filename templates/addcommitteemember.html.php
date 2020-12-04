@@ -2,12 +2,12 @@
 
 <head>
     <title>Add Committee Member</title>
-    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="stylesheet" href="/css/form.css" />
     <meta charset="utf-8">
 </head>
 
 <body>
-    <form action="addcommitteemember.php" method="get">
+    <form action="/public/addcommitteemember.php" method="get">
         <fieldset>
             <legend>New Committee Member</legend>
             <label for="committeename">Committee name:</label>
