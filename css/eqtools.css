@@ -227,7 +227,7 @@ th {
         float: none
     }
 
-    #nav ul li ul li:first {
+    #nav li ul li:first-child {
         float: right;
     }
 
