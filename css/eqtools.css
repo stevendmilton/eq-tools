@@ -219,13 +219,9 @@ th {
 }
 
 @media only screen and (max-width: 768px) {
-    nav ul {
-        background-color: #fff;
+    #nav li {
+        float: none
     }
 
-    nav li a {
-        padding: 15px;
-        border-bottom: 1px dotted #ddd;
 
-    }
 }
