@@ -227,7 +227,9 @@ th {
         float: none
     }
 
-    #nav li li {}
+    #nav ul li ul li:first {
+        float: right;
+    }
 
     #nav li a {
         display: block;
