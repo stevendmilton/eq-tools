@@ -87,7 +87,9 @@ nav {
     position: absolute;
     padding: 0;
     left: 0;
-    display: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     /* hides sublists */
 }
 
