@@ -58,7 +58,7 @@ nav {
     width: 180px;
     /* this is the width of the menu items */
     line-height: 35px;
-    /* this is the hieght of the menu items */
+    /* this is the height of the menu items */
     color: #ffffff;
     /* list item font color */
 }
@@ -219,11 +219,25 @@ th {
 }
 
 @media only screen and (max-width: 768px) {
+    #nav {
+        width: 180px;
+    }
+
     #nav li {
         float: none
     }
 
-    #nav li li {
-        float: right;
+    #nav li li {}
+
+    #nav li a {
+        display: block;
+        padding: 0;
+        text-decoration: none;
+        width: 180px;
+        /* this is the width of the menu items */
+        line-height: 35px;
+        /* this is the height of the menu items */
+        color: #ffffff;
+        /* list item font color */
     }
 }
