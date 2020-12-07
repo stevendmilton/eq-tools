@@ -218,6 +218,10 @@ th {
     text-align: left;
 }
 
+nav .menu-btn {
+    display: none;
+}
+
 @media only screen and (max-width: 768px) {
     #nav {
         width: 180px;
