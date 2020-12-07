@@ -334,7 +334,7 @@ th {
         top: 0;
     }
 
-    #nav {
+    /* #nav {
         width: 180px;
     }
 
@@ -345,16 +345,16 @@ th {
     #nav li ul li:first-child a {
         float: right;
     }
-
-    #nav li a {
+*/
+    /*#nav li a {
         display: block;
         padding: 0;
         text-decoration: none;
         width: 180px;
         /* this is the width of the menu items */
-        line-height: 35px;
-        /* this is the height of the menu items */
-        color: #ffffff;
-        /* list item font color */
-    }
+    /*line-height: 35px;*/
+    /* this is the height of the menu items */
+    /*color: #ffffff;*/
+    /* list item font color */
+    /*}*/
 }
