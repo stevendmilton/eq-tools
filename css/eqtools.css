@@ -230,6 +230,16 @@ th {
 @media only screen and (max-width: 768px) {
     /* menu btn */
 
+    #nav li:hover ul {
+        display: block;
+        /* shows sub-sublist on hover */
+        margin-left: 180px;
+        /* this should be the same width as the parent list item */
+        margin-top: -35px;
+        border-left: 2px solid black;
+        /* aligns top of sub menu with top of list item */
+    }
+
     nav .menu-btn,
     nav .menu-icon {
         display: none;
