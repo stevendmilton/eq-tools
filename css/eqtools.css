@@ -262,13 +262,13 @@ nav .menu-icon {
     cursor: pointer;
     display: inline-block;
     float: right;
-    padding: 28px 20px;
+    padding: 5px 4px;
     position: relative;
     user-select: none;
 }
 
 nav .menu-icon .navicon {
-    background: #fff;
+    background: ##f7f7f7;
     display: block;
     height: 2px;
     position: relative;
@@ -296,10 +296,6 @@ nav .menu-icon .navicon:after {
 }
 
 /* menu btn */
-
-nav .menu-btn {
-    display: none;
-}
 
 nav .menu-btn:checked ~ .nav {
     max-height: 340px;
