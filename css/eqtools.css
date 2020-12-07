@@ -336,6 +336,8 @@ th {
 
     #nav {
         width: 180px;
+        position: absolute;
+        margin: 0;
     }
 
     #nav li {
