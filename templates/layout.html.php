@@ -23,34 +23,34 @@ include_once __DIR__ .
       <li><a href="index.php">Quorum&nbsp;Maintenance
         </a>
         <ul>
-          <li><a href="/public/elders.php">Quorum Member Maint.</a></li>
+          <li><a href="/public/elders.php">Quorum&nbsp;Member&nbsp;Maint.</a></li>
         </ul>
       </li>
       <li><a href="index.php">Ministering</a>
         <ul>
-          <li><a href="/public/districts.php">District Maint.</a></li>
-          <li><a href="/public/companions.php">Companionship Maint.</a></li>
-          <li><a href="/public/households.php">Household Maint.</a></li>
+          <li><a href="/public/districts.php">District&nbsp;Maint.</a></li>
+          <li><a href="/public/companions.php">Companionship&nbsp;Maint.</a></li>
+          <li><a href="/public/households.php">Household&nbsp;Maint.</a></li>
         </ul>
       </li>
-      <li><a href="index.php">Ward Mission</a>
+      <li><a href="index.php">Ward&nbsp;Mission</a>
         <ul>
-          <li><a href="/public/missionroles.php">Mission Roles</a></li>
-          <li><a href="/public/bomclass.php">Book of Mormon Class</a></li>
+          <li><a href="/public/missionroles.php">Mission&nbsp;Roles</a></li>
+          <li><a href="/public/bomclass.php">Book&nbsp;of Mormon&nbsp;Class</a></li>
           <li><a href="/public/missionaries.php">Missionaries</a></li>
-          <li><a href="/public/missionprep.php">Missionary Prep Class</a></li>
+          <li><a href="/public/missionprep.php">Missionary&nbsp;Prep Class</a></li>
         </ul>
       </li>
-      <li><a href="index.php">Temple/Family History</a>
+      <li><a href="index.php">Temple/Family&nbsp;History</a>
         <ul>
           <li><a href="/public/consultants.php">Consultants</a></li>
-          <li><a href="#">Temple Preparation</a>
+          <li><a href="#">Temple&nbsp;Preparation</a>
             <ul>
-              <li><a href="/public/templeclasses.php">Class Maint.</a></li>
+              <li><a href="/public/templeclasses.php">Class&nbsp;Maint.</a></li>
               <?php prepMenu();?>
             </ul>
           </li>
-          <li><a href="#">Temple Trips</a>
+          <li><a href="#">Temple&nbsp;Trips</a>
             <ul>
               <li><a href="/public/templetrips.php">Trip Maint.</a></li>
               <?php tripMenu();?>
@@ -58,15 +58,15 @@ include_once __DIR__ .
           </li>
         </ul>
       </li>
-      <li><a href="index.php">Building Maintenance</a>
+      <li><a href="index.php">Building&nbsp;Maintenance</a>
         <ul>
           <li><a href="/public/teams.php">Team Maintenance</a></li>
           <?php maintenanceMenu();?>
         </ul>
       </li>
-      <li><a href="index.php">Quorum Committees</a>
+      <li><a href="index.php">Quorum&nbsp;Committees</a>
         <ul>
-          <li><a href="/public/committees.php">Committee Maintenance</a></li>
+          <li><a href="/public/committees.php">Committee&nbsp;Maintenance</a></li>
           <?php committeeMenu();?>
         </ul>
       </li>
