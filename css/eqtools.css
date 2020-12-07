@@ -350,7 +350,7 @@ th {
     }
 
     #nav li ul li:first-child a {
-        float: right;
+        /*float: right;*/
     }
 
     #nav li a {
