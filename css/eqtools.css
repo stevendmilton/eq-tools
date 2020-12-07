@@ -227,7 +227,7 @@ th {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1090px) {
     /* menu btn */
 
     #nav li:hover ul {
