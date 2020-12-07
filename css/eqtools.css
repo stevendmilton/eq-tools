@@ -224,7 +224,8 @@ th {
 
 /* menu btn */
 
-nav .menu-btn {
+nav .menu-btn,
+nav .menu-icon {
     display: none;
 }
 

@@ -26,14 +26,14 @@ include_once __DIR__ .
           <li><a href="/public/elders.php">Quorum Member Maint.</a></li>
         </ul>
       </li>
-      <li><a href="#">Ministering</a>
+      <li><a href="index.php">Ministering</a>
         <ul>
           <li><a href="/public/districts.php">District Maint.</a></li>
           <li><a href="/public/companions.php">Companionship Maint.</a></li>
           <li><a href="/public/households.php">Household Maint.</a></li>
         </ul>
       </li>
-      <li><a href="#">Ward Mission</a>
+      <li><a href="index.php">Ward Mission</a>
         <ul>
           <li><a href="/public/missionroles.php">Mission Roles</a></li>
           <li><a href="/public/bomclass.php">Book of Mormon Class</a></li>
@@ -41,7 +41,7 @@ include_once __DIR__ .
           <li><a href="/public/missionprep.php">Missionary Prep Class</a></li>
         </ul>
       </li>
-      <li><a href="#">Temple/Family History</a>
+      <li><a href="index.php">Temple/Family History</a>
         <ul>
           <li><a href="/public/consultants.php">Consultants</a></li>
           <li><a href="#">Temple Preparation</a>
@@ -58,13 +58,13 @@ include_once __DIR__ .
           </li>
         </ul>
       </li>
-      <li><a href="#">Building Maintenance</a>
+      <li><a href="index.php">Building Maintenance</a>
         <ul>
           <li><a href="/public/teams.php">Team Maintenance</a></li>
           <?php maintenanceMenu();?>
         </ul>
       </li>
-      <li><a href="#">Quorum Committees</a>
+      <li><a href="index.php">Quorum Committees</a>
         <ul>
           <li><a href="/public/committees.php">Committee Maintenance</a></li>
           <?php committeeMenu();?>
