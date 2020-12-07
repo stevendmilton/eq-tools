@@ -344,9 +344,9 @@ th {
         float: none
     }
 
-    /*#nav li ul li:first-child a {
+    #nav li ul li:first-child a {
         float: right;
-    }*/
+    }
 
     #nav li a {
         display: block;
