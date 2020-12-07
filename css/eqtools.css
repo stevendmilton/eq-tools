@@ -230,6 +230,11 @@ th {
 @media only screen and (max-width: 1090px) {
     /* menu btn */
 
+    h1 {
+        width: 768px;
+        font-size: 2em;
+    }
+
     #nav li:hover ul {
         display: block;
         /* shows sub-sublist on hover */
