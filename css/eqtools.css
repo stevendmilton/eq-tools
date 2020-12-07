@@ -336,7 +336,7 @@ th {
 
     #nav {
         width: 180px;
-        position: absolute;
+        position: relative;
         margin: 0;
     }
 
@@ -356,7 +356,8 @@ th {
         /* this is the width of the menu items */
         line-height: 35px;
         /* this is the height of the menu items */
-        /*color: #ffffff;*/
+        color: #f7f7f7;
+        */
         /* list item font color */
     }
 }
