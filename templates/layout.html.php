@@ -17,10 +17,9 @@ include_once __DIR__ .
     <h1 id="title"><?=$title?></h1>
   </header>
   <br><br>
-  <nav>
-    <label class="menu-label">Menu</label>
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
-    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <nav id="hamnav">
+    <input type="checkbox" id="hamburger" />
+    <label for="hamburger">&#9776;</label>
     <ul id="nav">
       <li><a href="index.php">Quorum&nbsp;Maintenance
         </a>
