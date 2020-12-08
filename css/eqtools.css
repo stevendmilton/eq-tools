@@ -223,7 +223,8 @@ th {
     text-align: left;
 }
 
-#menu {
+#menu,
+.menu-icon {
     display: none;
 }
 
@@ -235,7 +236,8 @@ th {
         font-size: 2em;
     }
 
-    #menu {
+    #menu,
+    .menu-icon {
         display: block;
     }
 
