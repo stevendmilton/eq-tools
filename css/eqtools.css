@@ -247,6 +247,10 @@ th {
         display: block;
     }
 
+    main {
+        width: auto;
+    }
+
     #nav {
         display: none;
     }
