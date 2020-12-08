@@ -306,7 +306,7 @@ th {
         content: '';
         display: block;
         height: 100%;
-        position: absolute;
+        position: relative;
         transition: all .2s ease-out;
         width: 100%;
     }
