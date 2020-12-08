@@ -147,9 +147,13 @@ label,
 select,
 textarea {
     float: left;
-    width: 15em;
     margin-bottom: 1em;
     padding: 0.5em;
+}
+
+select,
+textarea {
+    width: 15em;
 }
 
 input {
@@ -283,7 +287,6 @@ th {
         cursor: pointer;
         display: inline-block;
         float: right;
-        padding: 28px 20px;
         position: relative;
         user-select: none;
     }
