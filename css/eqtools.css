@@ -154,6 +154,8 @@ textarea {
 select,
 textarea {
     width: 15em;
+    margin-left: 5px;
+    margin-top: -5px;
 }
 
 input {
