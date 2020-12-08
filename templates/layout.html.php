@@ -17,8 +17,8 @@ include_once __DIR__ .
     <h1 id="title"><?=$title?></h1>
   </header>
   <nav class="collapsible-menu">
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
-    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <input class="menu" type="checkbox" id="menu" />
+    <label class="menu-icon" for="menu">Menu</label>
     <div class="menu-content">
       <ul id="nav">
         <li><a href="index.php">Quorum&nbsp;Maintenance
