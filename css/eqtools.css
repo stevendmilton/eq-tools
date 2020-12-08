@@ -367,6 +367,8 @@ th {
     }
 
     .menu-content {
+        max-height: 0;
+        overflow: hidden;
         padding: 0 0 0 50px;
     }
 
@@ -399,6 +401,14 @@ th {
 
     input#menu {
         display: none;
+    }
+
+    input:checked ~ label {
+        background-image: url(/images/icons8-menu.gif);
+    }
+
+    input:checked ~ .menu-content {
+        max-height: 100%;
     }
 
 }
