@@ -296,7 +296,7 @@ th {
         display: block;
         height: 2px;
         position: fixed;
-        top: 180px;
+        top: 185px;
         left: 5px;
         transition: background .2s ease-out;
         width: 18px;
