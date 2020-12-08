@@ -227,7 +227,9 @@ th {
     text-align: left;
 }
 
-#menu-btn {
+#menu-btn,
+menu-icon,
+menu-label {
     display: none;
 }
 
