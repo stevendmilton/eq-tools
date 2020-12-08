@@ -16,7 +16,8 @@ include_once __DIR__ .
   <header>
     <h1 id="title"><?=$title?></h1>
   </header>
-  <nav class="collapsible-menu">
+  <!--  <nav>-->
+  <div class="collapsible-menu">
     <input class="menu" type="checkbox" id="menu" />
     <label class="menu-icon" for="menu">Menu</label>
     <div class="menu-content">
@@ -74,7 +75,8 @@ include_once __DIR__ .
       </ul>
     </div>
     <br><br>
-  </nav>
+  </div>
+  <!--  </nav>-->
 
   <main>
     <?php if (isset($output)) {echo $output;}?>

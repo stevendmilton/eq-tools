@@ -223,7 +223,7 @@ th {
     text-align: left;
 }
 
-#menu-btn {
+#menu {
     display: none;
 }
 
@@ -236,9 +236,10 @@ th {
     }
 
     .menu-content {
+        font-family: 'Oswald', sans-serif;
+        padding: 0 0 0 50px;
         max-height: 0;
         overflow: hidden;
-        padding: 0 0 0 50px;
     }
 
     .collapsible-menu {
