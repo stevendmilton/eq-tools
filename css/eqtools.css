@@ -305,7 +305,7 @@ th {
     nav .menu-icon .navicon:before,
     nav .menu-icon .navicon:after {
         background: red;
-        content: '';
+        content: 'Menu';
         display: block;
         height: 100%;
         position: absolute;
