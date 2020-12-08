@@ -227,11 +227,10 @@ th {
     text-align: left;
 }
 
-#hamnav label,
-#hamburger {
+#hamburger,
+#hamnav label {
     display: none;
 }
-
 
 @media only screen and (max-width: 1090px) {
 
@@ -244,23 +243,123 @@ th {
         padding: 10px;
     }
 
-    #hamitems {
-        display:
+    #hamnav input:checked ~ #nav {
+        display: block;
     }
 
     h1 {
         font-size: 1.5em;
     }
 
-    #nav {
+    #nav li:hover ul {
+        display: block;
+        /* shows sub-sublist on hover */
+        margin-left: 180px;
+        /* this should be the same width as the parent list item */
+        margin-top: -35px;
+        border-left: 2px solid black;
+        /* aligns top of sub menu with top of list item */
+    }
+
+    nav .menu-btn,
+    nav .menu-icon {
         display: none;
+    }
+
+    nav .menu-btn:checked ~ .nav {
+        max-height: 340px;
+    }
+
+    nav .menu-btn:checked ~ .menu-icon .navicon {
+        background: transparent;
+    }
+
+    nav .menu-btn:checked ~ .menu-icon .navicon:before {
+        transform: rotate(-45deg);
+    }
+
+    nav .menu-btn:checked ~ .menu-icon .navicon:after {
+        transform: rotate(45deg);
+    }
+
+    nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+    nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+        top: 0;
+    }
+
+    nav .nav {
+        clear: both;
+        max-height: 0;
+        transition: max-height .2s ease-out;
+    }
+
+    /* menu icon */
+
+    nav .menu-icon {
+        cursor: pointer;
+        display: inline-block;
+        float: right;
+        position: relative;
+        user-select: none;
+    }
+
+    nav .menu-icon .navicon {
+        background: #f7f7f7;
+        display: block;
+        height: 2px;
+        position: fixed;
+        top: 185px;
+        left: 5px;
+        transition: background .2s ease-out;
+        width: 18px;
+    }
+
+    nav .menu-icon .navicon:before,
+    nav .menu-icon .navicon:after {
+        background: red;
+        content: 'Menu';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        width: 100%;
+    }
+
+    nav .menu-icon .navicon:before {
+        top: 5px;
+    }
+
+    nav .menu-icon .navicon:after {
+        top: -5px;
+    }
+
+    /* menu btn */
+
+    nav .menu-btn:checked ~ .nav {
+        max-height: 340px;
+    }
+
+    nav .menu-btn:checked ~ .menu-icon .navicon {
+        background: transparent;
+    }
+
+    nav .menu-btn:checked ~ .menu-icon .navicon:before {
+        transform: rotate(-45deg);
+    }
+
+    nav .menu-btn:checked ~ .menu-icon .navicon:after {
+        transform: rotate(45deg);
+    }
+
+    nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+    nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+        top: 0;
+    }
+
+    #nav {
         width: 180px;
         position: relative;
         margin: 0;
-    }
-
-    #hamnav input:checked ~ #nav {
-        display: block;
     }
 
     #nav li {
