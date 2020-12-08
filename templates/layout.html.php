@@ -16,7 +16,6 @@ include_once __DIR__ .
   <header>
     <h1 id="title"><?=$title?></h1>
   </header>
-  <br>
   <nav id="hamnav">
     <input type="checkbox" id="hamburger" />
     <label for="hamburger">&#9776;</label>
