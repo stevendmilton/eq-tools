@@ -302,7 +302,7 @@ th {
 
     nav .menu-icon .navicon:before,
     nav .menu-icon .navicon:after {
-        background: #fff;
+        background: red;
         content: '';
         display: block;
         height: 100%;
