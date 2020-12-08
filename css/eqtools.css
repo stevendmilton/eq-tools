@@ -249,7 +249,7 @@ th {
 
     main {
         width: auto;
-        margin: auto;
+        margin-left: 5px;
     }
 
     #nav {
