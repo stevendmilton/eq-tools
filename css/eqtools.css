@@ -295,7 +295,9 @@ th {
         background: #f7f7f7;
         display: block;
         height: 2px;
-        position: relative;
+        position: fixed;
+        top: 180px;
+        left: 5px;
         transition: background .2s ease-out;
         width: 18px;
     }
@@ -306,7 +308,7 @@ th {
         content: '';
         display: block;
         height: 100%;
-        position: relative;
+        position: absolute;
         transition: all .2s ease-out;
         width: 100%;
     }
